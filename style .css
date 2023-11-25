@@ -1,0 +1,548 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;             
+}
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gilroy-Regular', sans-serif;
+
+}
+
+
+.left{
+    display: flex;
+    color: #374A3D;
+    align-items: center;
+    font-family: 'Gilroy-Regular', sans-serif;
+
+}
+.left h1{
+    align-items: flex-end;
+    padding-left: 10px;
+    margin: 0;
+    font-family: 'gilroy-bold';
+}
+
+
+.right{
+    float: right;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+ul li{
+    display: inline-flex;
+    align-items: center;
+}
+
+.right a{
+    display: flex;
+    text-decoration: none;
+    color: #1D3B53;
+    font-family: 'Gilroy-Regular', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.right button{
+    width: 110px;
+    height: 42px;
+    border-radius: 6px;
+    background-color: #0CA941;
+    border: none;
+    font-family: 'gilroy-bold';
+}
+
+
+.picture{
+    width: max-content;
+    top: 0;
+    left: 0;
+}
+
+/* section 1 */
+
+.papa{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chap{
+    display: block;
+    margin-top: 80px;
+}
+
+.chap h1{
+    align-items: center;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    color: #374A3D;
+}
+
+.chap p{
+    align-items: center;
+
+    font-family: 'Gilroy-light';
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #707070;
+
+}
+
+h1 span{
+    font-size: 72px;
+    font-weight: 700;
+    font-family: 'Gilroy-heavy', sans-serif;
+    color: #0CA941;
+}
+
+.btnn{
+    width: 178px;
+    height: 62px;
+    border-radius: 50%;
+    border: 2px solid #0CA941;
+    background-color: #fff;
+    display: block;
+    align-items: start;
+}
+
+.chap img{
+    width: auto;
+    display: inline-flex;
+}
+
+.on img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.otacard{
+    width: 1170px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 28px;
+    box-shadow: 23px 19px 138px -4px #0CA94121;
+}
+
+
+.cardd{
+    width: auto;
+    display: inline;
+    align-items: center;
+}
+
+
+.cardd1 h1{
+    font-family: 'Fredoka One', 'rubik' ;
+    font-size: 30px;
+    font-weight: 600;
+    color: #374A3D;
+
+}
+
+
+.cardd1 p{
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5B7262;
+}
+
+.cardd h1{
+    font-family: 'Gilroy-heavy';
+    font-size: 60px;
+    font-weight: 400;
+    color: #0CA941;
+}
+.cardd p{
+    font-family: 'Gilroy-regular';
+    font-size: 18px;
+    font-weight: 400;
+    color: #678570;
+}
+
+
+/* sec 2 */
+
+.otasec{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.rightsec{
+    align-items: center;
+    padding-top: 30px;
+}
+
+.rightsec h1{
+    font-family: 'Fredoka One', 'rubik';
+    font-size: 36px;
+    font-weight: 600;
+    color: #374A3D;
+
+}
+
+.rightsec p{
+    font-family: 'Gilroy-regular';
+    font-size: 18px;
+    font-weight: 500;
+    color: #678570;
+}
+
+.h1{
+    font-family: 'Gilroy-heavy';
+    font-size: 36px;
+    font-weight: 400;
+    color: #374A3D;
+}
+
+/* sec 2 */
+
+.leftsec2 p{
+    font-family: 'Gilroy-regular';
+    font-size: 20px;
+    font-weight: 500;
+    color: #5B7262;
+}
+
+.leftsec img{
+    width: 100%;
+}
+
+.rightsec2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.otasec2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kart{
+    height: 264px;
+    width: 268px;
+    display: block;
+    border: 1px solid #925e5e;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.kart h1{
+    font-family: 'Fredoka One', 'rubik';
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.plantbox .h1{
+    text-align: center;
+}
+.plantbox .p{
+    text-align: center;
+}
+
+.plantshop{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+}
+
+
+.card3{
+    width: 360px;
+    height: 437px;
+    border: 1px solid #0000005C;
+    border-radius: 37px;
+
+    align-items: center;
+    text-align: center;
+
+    padding: 30px;
+}
+
+.card3 img{
+    object-fit: contain;
+}
+
+.card3 h1{
+    font-family: 'Fredoka One', 'rubik';
+    font-size: 24px;
+    font-weight: 600;
+    text-align: start;
+
+    padding-top: 10px;
+}
+
+
+.card3 p{
+    font-family: 'Gilroy-regular';
+    font-size: 12px;
+    font-weight: 400;
+    text-align: start;
+}
+.card3 p span{
+    font-family: 'Fredoka One', 'rubik';
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    color: #0CA941;
+
+}
+
+.card3 button{
+    width: 128px;
+    height: 43px;
+    border: 1px solid #374A3D5C;
+    border-radius: 10px;
+    color: #678570;
+    background-color: #fff;
+
+    font-family: 'Gilroy-regular';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card3 p, button{
+    display: inline-block;
+}
+
+.said{
+    display: block;
+    height: 508px;
+    border: 1px solid #8b0e0e;
+    border-radius: 19px;
+    align-items: center;
+    padding: 95px;
+}
+
+.said h1{
+    margin-bottom: 30px;
+}
+.said p{
+    margin-bottom: 50px;
+}
+
+#aside form input{
+    height: 80px;
+    width: 50% !important;
+    border: 1px solid #0CA941;
+    border-radius: 10px;
+    padding-left: 10px;
+    outline: none;
+}
+
+#btn{
+    width: 222px;
+    height: 82px;
+    border-radius: 10px;
+    margin-left: -56px;
+}
+
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1402px) {
+    .papa{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    }
+
+    .chap p{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gilroy-light';
+    font-size: 18px;
+    font-weight: 500;
+    color: #707070;
+    
+}
+.btnn{
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+.chap img{
+    display: inline-block;
+    justify-content: end;
+}
+
+/* sec 2 */
+.otasec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+/* sec 3 */
+
+.otasec2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.plantshop{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+}
+
+
+@media all and (max-width: 1250px) {
+    .otacard{
+        width: 950px;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+  
+}
+@media all and (max-width: 1000px) {
+    .otacard{
+        width: 800px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+@media all and (max-width: 870px) {
+    .otacard{
+        width: max-content;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .plantshop{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .said{
+        display: block;
+        height: 380px;
+        border: 1px solid #8b0e0e;
+        border-radius: 19px;
+        align-items: center;
+        padding: 44px;
+    }
+
+    nav{
+        width: 100%;
+        height: max-content;
+        margin: 0 auto;
+    }
+    
+    .parent{
+        padding: 20px;
+        height: max-content;
+        font-family: 'Gilroy-Regular', sans-serif;
+        text-align: start;
+        display: block;
+    }
+    .right{
+        padding-top: 20px;
+        float: left;
+        display: block;
+        text-align: start;
+        font-family: 'Gilroy-Regular', sans-serif;
+    }
+    .right a{
+        padding: 7px;
+    }
+    .right button{
+        margin-bottom: 15px;
+    }
+
+}
